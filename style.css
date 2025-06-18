@@ -1,0 +1,101 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url(images/Depositphotos_26972345_xl-2015.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+#main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 50px;
+    flex-direction: column;
+    position: absolute;
+    margin: 0px auto;
+    left: 80vh;
+    top: 25vh;
+    text-align: center;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+#input-loc{
+    margin-bottom: 50px;
+}
+
+#cityIcon{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#search{
+    padding: 10px;
+    width: 250px;
+    border: none;
+    border-radius: 5px;
+    background-color: linen;
+    font-size: 17px;
+    color: cadetblue;
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+#search:focus{
+    background-color: rgb(221, 234, 234);
+}
+
+#search::placeholder{
+    color: lightskyblue;
+}
+
+#btn{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: lightskyblue;
+    font-size: 17px;
+    font-weight: bold;
+    color: lightcyan;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+#btn:hover{
+    transform: scale(0.93);
+    transition: 0.5s  ease-in;
+}
+
+#location{
+    font-size: 35px;
+    color: rgb(27, 83, 85);
+}
+
+#temp , #wind , #wet , #icon{
+    font-size: 25px;
+    color: rgb(27, 83, 85);
+    margin-top: 15px;
+}
+
+#sec{
+    padding: 5px 15px;
+    margin-top: 10px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+#icon img{
+    width: 50px;
+}
+
+#head{
+    color: rgb(27, 83, 85);
+    font-size: 20px;
+    margin-bottom: 15px;
+}
